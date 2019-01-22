@@ -1,0 +1,41 @@
+body {
+	background-color: #ffffff;
+	font-family: arial, sans-serif;
+}
+
+.navbar-container {
+	margin: 10px 16px;
+}
+
+.navbar-items {
+	font-size: 13px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	.navbar-items-link {
+		margin: 8px;
+		text-decoration: none;
+		color: rgba(0, 0, 0, 0.87);
+	}
+
+	.button-app {
+		background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+		background-size: 528px 68px;
+		background-position: -132px -38px;
+		border-radius: 2px;
+		height: 30px;
+		width: 30px;
+		outline: none;
+		color: #8b8b8b;
+	}
+
+	.button-login {
+		background-color: #4385f7;
+		color: #fffffd;
+		line-height: 26px;
+		height: 26px;
+		padding: 2px 14px;
+		font-weight: 700;
+	}
+}
