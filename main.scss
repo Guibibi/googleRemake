@@ -39,3 +39,30 @@ body {
 		font-weight: 700;
 	}
 }
+
+.logo-container {
+	height: 222px;
+	margin-top: 41px;
+	display: flex;
+	justify-content: center;
+	img {
+		padding-top: 109px;
+	}
+}
+
+.search-input {
+	text-align: center;
+
+	#search-box {
+		width: 560px;
+		padding-left: 10px;
+		height: 40px;
+		line-height: 34px;
+		font: 16px arial, sans-serif;
+		border-radius: 3px;
+		border: thin solid rgba(151, 151, 151, 0.705);
+		-webkit-box-shadow: -4px 6px 17px -11px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: -4px 6px 17px -11px rgba(0, 0, 0, 0.75);
+		box-shadow: -4px 6px 17px -11px rgba(0, 0, 0, 0.75);
+	}
+}
