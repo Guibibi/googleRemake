@@ -30,6 +30,12 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 
+.navbar-items .navbar-start {
+  justify-self: flex-start;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
 .navbar-items .button-app {
   background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
   background-size: 528px 68px;
